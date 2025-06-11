@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MainTest" time="0.195" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/raizel/Downloads/project_prerequisites/target/test-classes:/Users/raizel/Downloads/project_prerequisites/target/classes:/Users/raizel/.m2/repository/org/springframework/spring-core/5.3.14/spring-core-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-jcl/5.3.14/spring-jcl-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-context/5.3.14/spring-context-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-aop/5.3.14/spring-aop-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-beans/5.3.14/spring-beans-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-expression/5.3.14/spring-expression-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-test/5.3.14/spring-test-5.3.14.jar:/Users/raizel/.m2/repository/org/scalatestplus/junit-4-12_2.13/3.2.2.0/junit-4-12_2.13-3.2.2.0.jar:/Users/raizel/.m2/repository/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar:/Users/raizel/.m2/repository/org/scalatest/scalatest-core_2.13/3.2.2/scalatest-core_2.13-3.2.2.jar:/Users/raizel/.m2/repository/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2.jar:/Users/raizel/.m2/repository/org/scalactic/scalactic_2.13/3.2.2/scalactic_2.13-3.2.2.jar:/Users/raizel/.m2/repository/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar:/Users/raizel/.m2/repository/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar:/Users/raizel/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/raizel/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/raizel/Downloads/project_prerequisites/target/surefire/surefirebooter-20250611215402994_3.jar /Users/raizel/Downloads/project_prerequisites/target/surefire 2025-06-11T21-54-02_550-jvmRun1 surefire-20250611215402994_1tmp surefire_0-20250611215402994_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127.0.0.1:21300|*.127.0.0.1:21300"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/raizel/Downloads/project_prerequisites/target/test-classes:/Users/raizel/Downloads/project_prerequisites/target/classes:/Users/raizel/.m2/repository/org/springframework/spring-core/5.3.14/spring-core-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-jcl/5.3.14/spring-jcl-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-context/5.3.14/spring-context-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-aop/5.3.14/spring-aop-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-beans/5.3.14/spring-beans-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-expression/5.3.14/spring-expression-5.3.14.jar:/Users/raizel/.m2/repository/org/springframework/spring-test/5.3.14/spring-test-5.3.14.jar:/Users/raizel/.m2/repository/org/scalatestplus/junit-4-12_2.13/3.2.2.0/junit-4-12_2.13-3.2.2.0.jar:/Users/raizel/.m2/repository/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar:/Users/raizel/.m2/repository/org/scalatest/scalatest-core_2.13/3.2.2/scalatest-core_2.13-3.2.2.jar:/Users/raizel/.m2/repository/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2.jar:/Users/raizel/.m2/repository/org/scalactic/scalactic_2.13/3.2.2/scalactic_2.13-3.2.2.jar:/Users/raizel/.m2/repository/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar:/Users/raizel/.m2/repository/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar:/Users/raizel/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/raizel/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/raizel"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/raizel/Downloads/project_prerequisites"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/raizel/Downloads/project_prerequisites/target/surefire/surefirebooter-20250611215402994_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127.0.0.1:21300|*.127.0.0.1:21300"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="raizel"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/raizel/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/57/_0gfq525155cc7v914lqjrbr0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/raizel/Downloads/project_prerequisites"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/raizel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|127.0.0.1:21300|*.127.0.0.1:21300"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="mainTest" classname="MainTest" time="0.002">
+    <system-out><![CDATA[Traditional Bedouin Wedding Feast consists of stuffing of a rabbit inside of a duck, which is stuffed inside a chicken, which is stuffed inside a pig, which is stuffed inside a lamb, which is stuffed inside a goat, which is stuffed inside a horse, which is stuffed inside a camel, and cooked over a charcoal fire.
+]]></system-out>
+    <system-err><![CDATA[июн. 11, 2025 9:54:03 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+июн. 11, 2025 9:54:03 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4fe767f3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2805c96b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@184cf7cf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2fd6b6c7, org.springframework.test.context.event.EventPublishingTestExecutionListener@5bfa9431]
+]]></system-err>
+  </testcase>
+</testsuite>
